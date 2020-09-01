@@ -1,7 +1,7 @@
 package com.company;
 
 public abstract class State {
-    private boolean isOn;
+    protected boolean isOn;
 
     public abstract String getState();
 }
