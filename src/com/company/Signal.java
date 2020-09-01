@@ -2,13 +2,13 @@ package com.company;
 
 public class Signal extends State {
 
-    public Signal(){
-        isOn = false;
+    public Signal(String name) {
+        super(name);
     }
 
     @Override
     public String getState() {
-        if (isOn){
+        if (getIsOn()){
             return "green";
         } else {
             return "red";

@@ -2,13 +2,14 @@ package com.company;
 
 public class Train extends State {
 
-    public Train(){
-        isOn = false;
+
+    public Train(String name) {
+        super(name);
     }
 
     @Override
     public String getState() {
-        if (isOn){
+        if (getIsOn()){
             return "east";
         }  else {
             return "west";
