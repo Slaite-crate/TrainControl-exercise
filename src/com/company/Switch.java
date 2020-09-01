@@ -1,17 +1,17 @@
 package com.company;
 
-public class Track extends State {
+public class Switch extends State {
 
-    public Track(){
+    public Switch(){
         isOn = false;
     }
 
     @Override
     public String getState() {
         if (isOn){
-            return "with train";
+            return "Straight";
         } else {
-            return "empty";
+            return "curved";
         }
     }
 }

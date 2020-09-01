@@ -1,17 +1,17 @@
 package com.company;
 
-public class Track extends State {
+public class Signal extends State {
 
-    public Track(){
+    public Signal(){
         isOn = false;
     }
 
     @Override
     public String getState() {
         if (isOn){
-            return "with train";
+            return "green";
         } else {
-            return "empty";
+            return "red";
         }
     }
 }
