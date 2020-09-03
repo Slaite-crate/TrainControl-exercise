@@ -1,4 +1,4 @@
-package com.company;
+package com.company.models;
 
 public abstract class State {
     private boolean isOn;

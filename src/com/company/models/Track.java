@@ -1,4 +1,5 @@
-package com.company;
+package com.company.models;
+
 
 public class Track extends State {
 
