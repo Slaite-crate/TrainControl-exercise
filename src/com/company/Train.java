@@ -10,9 +10,9 @@ public class Train extends State {
     @Override
     public String getState() {
         if (getIsOn()){
-            return "east";
+            return "right";
         }  else {
-            return "west";
+            return "left";
         }
     }
 }

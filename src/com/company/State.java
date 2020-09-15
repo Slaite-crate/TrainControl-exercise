@@ -14,4 +14,6 @@ public abstract class State {
     public boolean getIsOn(){
         return isOn;
     }
+
+
 }

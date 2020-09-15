@@ -9,9 +9,9 @@ public class Switch extends State {
     @Override
     public String getState() {
         if (getIsOn()){
-            return "Straight";
-        } else {
             return "curved";
+        } else {
+            return "straight";
         }
     }
 }
